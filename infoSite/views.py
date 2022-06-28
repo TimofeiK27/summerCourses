@@ -9,3 +9,10 @@ def index(request):
 
 def aboutus(request):
 	return render(request,"infoSite/about-us.html")
+
+def classes(request):
+	return render(request,"infoSite/classes.html")
+
+def contactus(request):
+	return render(request,"infoSite/contact-us.html")
+
