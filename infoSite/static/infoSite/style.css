@@ -12,6 +12,13 @@ li {
     text-wrap: true;
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#tab nav {
+    align-self: flex-end;
 }
 
 #tab ul {
@@ -51,4 +58,9 @@ li {
     text-align: center;
     margin: 30px;
     font-size: 75px;
+}
+
+#luckylogo {
+    height: 100%;
+    display: inline;
 }
