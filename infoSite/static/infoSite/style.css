@@ -8,17 +8,18 @@ li {
 }
 
 #tab {
-    background-color: hsl(0, 0%, 92.5%);
+    background-color: hsl(100, 60%, 92.5%);
+    /*background-color: hsl(0, 0%, 92.5%);*/
     text-wrap: true;
     width: 100%;
-    height: 100px;
+    height: 60px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 
 }
 
 #tab nav {
-    align-self: flex-end;
+    align-self: flex-center;
 }
 
 #tab ul {
@@ -35,7 +36,8 @@ li {
 }
 
 #tab li a {
-    color: hsl(0, 0%, 30%);
+    color: hsl(100, 100%, 10%);
+    /*color: hsl(0, 0%, 30%);*/
     text-decoration: none;
     font-size: 30px;
     font-weight: bold;
@@ -51,16 +53,20 @@ li {
 }
 
 #tab li:hover {
-    background-color: hsl(0, 0%, 80%);
+    background-color: hsl(100, 80%, 80%);
 }
 
 .pageTitle {
     text-align: center;
     margin: 30px;
-    font-size: 75px;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 #luckylogo {
-    height: 100%;
+    height: 80%;
+    padding:6px;
     display: inline;
+    display: flex;
+    justify-content: flex-center;
 }

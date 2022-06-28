@@ -8,13 +8,15 @@
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <title>summer project</title>
         <link rel='stylesheet' href="{% static 'infoSite/style.css' %}">
+        {% block script%}
+		{% endblock %}
     </head>
 
     <body>
         <header id="tab">
 
             <img id="luckylogo" src="{% static 'infoSite/lucky-pen-logo.png' %}" alt="lucky pen logo">
-            <nav>
+            <nav id="navButtons">
                 <ul>
                   <li><a href="/">Home</a></li>
                   <li><a href="/about-us">About Us</a></li>
@@ -23,9 +25,11 @@
                 </ul>
             </nav>
         </header>
-
+        <div style="padding:15px;">
             {% block body %}
             {% endblock %}
+        </div>
+
     </body>
 
 </html>
