@@ -12,7 +12,7 @@ li {
     /*background-color: hsl(0, 0%, 92.5%);*/
     text-wrap: true;
     width: 100%;
-    height: 60px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
 
@@ -32,29 +32,52 @@ li {
 #tab li {
     /*border: solid red 1px;*/
     height: 100%;
+    padding: 0 20px;
     box-sizing: border-box;
+
+    display:flex;
+    align-items: center;
 }
 
 #tab li a {
-    color: hsl(100, 100%, 10%);
+    color: #1d8351;
     /*color: hsl(0, 0%, 30%);*/
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    font-family: "Optima", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
 
-    width: 100%;
-    height: 100%;
+
+    /*box-sizing: border-box;*/
 
     display: flex;
     align-items: center;
 
-    padding: 0 20px;
+    padding: 0 0;
+    position: relative;
 }
 
-#tab li:hover {
-    background-color: hsl(100, 80%, 80%);
+#tab li a:after {
+    content: '';
+    position: absolute;
+    bottom: -7%;
+    width: 100%;
+    height: 3px;
+
+
+    transform: scaleX(0);
+    background-color: #AC853A;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+
 }
+
+#tab li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
 
 .pageTitle {
     text-align: center;
@@ -65,8 +88,8 @@ li {
 
 #luckylogo {
     height: 80%;
-    padding:6px;
+    margin: 8%;
     display: inline;
-    display: flex;
-    justify-content: flex-center;
+    /*
+    box-sizing: border-box;*/
 }
