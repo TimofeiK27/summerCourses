@@ -1,0 +1,10 @@
+
+#tab li {
+    margin: 2px;
+    padding: 2px;
+    display: inline-block;
+}
+#tab {
+    border: solid 2px grey;
+    text-wrap: true;
+}

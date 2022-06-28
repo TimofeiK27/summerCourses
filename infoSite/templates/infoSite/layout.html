@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <!--meta name='description' content=''-->
+        <meta name='keywords' content='Lucky, Pen'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>summer project</title>
+        <link rel='stylesheet' href="{% static 'infoSite/style.css' %}">
+    </head>
+
+    <body>
+        <header id="tab" >
+             <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about-us">About Us</a></li>
+              <li><a href="contact.asp">Contact</a></li>
+              <li><a href="about.asp">About</a></li>
+            </ul>
+        </header>
+
+            {% block body %}
+            {% endblock %}
+    </body>
+
+</html>

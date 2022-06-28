@@ -6,4 +6,6 @@ from . import templates
 
 def index(request):
 	return render(request,"infoSite/index.html")
-	#return HttpResponse('test')
+
+def aboutus(request):
+	return render(request,"infoSite/about-us.html")
