@@ -5,7 +5,11 @@ from . import templates
 # Create your views here.
 
 def index(request):
-	return render(request,"infoSite/index.html")
+	return render(request,"infoSite/index.html",{
+
+	})
+
+
 
 def aboutus(request):
 	return render(request,"infoSite/about-us.html")
