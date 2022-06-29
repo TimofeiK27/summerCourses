@@ -205,3 +205,10 @@ li {
 .bio h2 {
     font-size: 40px;
 }
+
+/* Class Page */
+
+.classImage {
+    height:80%;
+    width:80%;
+}
