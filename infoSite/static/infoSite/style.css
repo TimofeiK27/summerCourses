@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
 }
 
 li {
@@ -65,12 +67,11 @@ li {
 }
 
 #tab li a {
-    color: #1d8351;
+    --text-green: #1d8351;
+    color: var(--text-green);
     /*color: hsl(0, 0%, 30%);*/
     text-decoration: none;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
 
 
     /*box-sizing: border-box;*/
@@ -91,7 +92,7 @@ li {
 
 
     transform: scaleX(0);
-    background-color: #AC853A;
+    background-color: var(--text-green);
     transform-origin: center;
     transition: transform 0.25s ease-out;
 
@@ -103,12 +104,6 @@ li {
 }
 
 
-.pageTitle {
-    text-align: center;
-    margin: 30px;
-    font-size: 25px;
-    text-decoration: underline;
-}
 
 #luckylogo {
     height: 80%;
@@ -139,6 +134,15 @@ li {
     fill: var(--top-bar-color);
 }
 
+#background {
+    background-image: linear-gradient(20deg, #e8fae6, white);
+    position: absolute;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: -2;
+    overflow: hidden;
+}
+
 #classList {
     display:flex;
     flex-flow: wrap;
@@ -153,4 +157,21 @@ li {
     background: lightgreen;
     width: 500px;
     height:200px;
+}
+
+
+.pagewrapper {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/*ABOUT US PAGE*/
+.pageTitle {
+    text-align: center;
+    margin: 50px 0 0;
+    font-size: 60px;
+}
+
+.bio h2 {
+    font-size: 40px;
 }
