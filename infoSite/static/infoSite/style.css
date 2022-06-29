@@ -31,7 +31,30 @@ li {
     justify-content: flex-end;
     height: 100%;
 }
+@media(min-width:775px){
+   #tab li a {
+       font-size: 25px
+    }
+}
+@media(max-width:775px){
+   #tab li a {
+       font-size: 15px
+    }
+}
+@media(max-width:542.67px){
 
+    #tab ul {
+        height:50%;
+    }
+}
+@media(max-width:350px){
+   #tab li a {
+       font-size: 10px
+    }
+    #tab ul {
+        height:50%;
+    }
+}
 #tab li {
     /*border: solid red 1px;*/
     height: 100%;
