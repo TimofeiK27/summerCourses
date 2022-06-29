@@ -31,25 +31,24 @@ li {
     justify-content: flex-end;
     height: 100%;
 }
-@media(min-width:775px){
+@media(min-width:426px){
    #tab li a {
        font-size: 25px
     }
 }
-@media(max-width:775px){
-   #tab li a {
-       font-size: 15px
-    }
-}
-@media(max-width:542.67px){
+@media(max-width:711.33px){
 
     #tab ul {
         height:50%;
     }
 }
-@media(max-width:350px){
+@media(max-width:542.67px){
+
+
+}
+@media(max-width:426px){
    #tab li a {
-       font-size: 10px
+       font-size: 15px
     }
     #tab ul {
         height:50%;
@@ -69,7 +68,6 @@ li {
     color: #1d8351;
     /*color: hsl(0, 0%, 30%);*/
     text-decoration: none;
-    font-size: 25px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
@@ -133,10 +131,26 @@ li {
 .wave svg {
     position: relative;
     display: block;
-    width: calc(204% + 1.3px);
-    height: 232px;
+    width: calc(304% + 1.3px);
+    height: 40px;
 }
 
 .wave .shape-fill {
     fill: var(--top-bar-color);
+}
+
+#classList {
+    display:flex;
+    flex-flow: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.classItem {
+    border: solid 2px green;
+    margin:4px;
+    padding:8px;
+    background: lightgreen;
+    width: 500px;
+    height:200px;
 }
