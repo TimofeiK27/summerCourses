@@ -1,4 +1,4 @@
-{% extends "infoSite/layout.html" %}
+{% extends "layout.html" %}
 {% load static %}
 {% block body %}
     <h1 class="pageTitle">Classes</h1>
@@ -6,7 +6,7 @@
     <div id="classList">
         <div id="PremierePro" class="classItem">
             <h1 class="classItemTitle">Video Editing</h1>
-            <img src="{% static 'infoSite/mrmeltzer.png' %}" alt="evan meltzer profile photo" class="classImage">
+            <img src="{% static 'resources/mrmeltzer.png' %}" alt="evan meltzer profile photo" class="classImage">
 
         </div>
         <div class="classItem">
@@ -60,5 +60,5 @@
 {% endblock %}
 
 {% block script %}
-   <script src="{% static 'infoSite/classes.js' %}"></script>
+   <script src="{% static 'scripts/classes.js' %}"></script>
 {% endblock %}
