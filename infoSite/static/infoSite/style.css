@@ -180,6 +180,7 @@ li {
 }
 
 .bio img {
+    min-width: 250px;
     width: 100%;
     margin: 2% 0;
 }
@@ -196,14 +197,14 @@ li {
     padding: 50px 40px 0;
 }
 
-.biotextwrap p {
-    text-wrap: true;
+.bio p {
     white-space: normal;
     font-size: 30px;
+    max-width: 400px;
 }
 
 .bio h2 {
-    font-size: 40px;
+    font-size: 60px;
 }
 
 /* Class Page */
