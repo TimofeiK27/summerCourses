@@ -41,7 +41,9 @@ li {
 
     #tab ul {
         height:50%;
+        width:400px;
     }
+
 }
 @media(max-width:542.67px){
 
@@ -134,7 +136,8 @@ li {
 }
 
 #background {
-    background-image: linear-gradient(20deg, #e8fae6, white);
+    /*background-image: linear-gradient(20deg, gold, white);*/
+    /*background-image: radial-gradient(gold, white);*/
     position: absolute;
     width: 100vw;
     min-height: 100vh;
@@ -159,10 +162,19 @@ li {
 }
 
 
-.pagewrapper {
+.main-body {
     display: flex;
     flex-flow: column nowrap;
 }
+
+
+/*HOME PAGE*/
+
+.tagline {
+    padding: 20px 0;
+    text-align: center;
+}
+
 
 /*ABOUT US PAGE*/
 .pageTitle {
@@ -176,11 +188,12 @@ li {
     flex-flow: row nowrap;
     margin: 5% 10%;
     width: 80%;
+
     /*box-sizing: border-box;*/
 }
 
 .bio img {
-    width: 100%;
+    width: 350px;
     margin: 2% 0;
 }
 
@@ -199,7 +212,7 @@ li {
 .biotextwrap p {
     text-wrap: true;
     white-space: normal;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .bio h2 {
@@ -211,4 +224,9 @@ li {
 .classImage {
     height:80%;
     width:80%;
+}
+
+iframe {
+    border:2px solid;
+    margin-left:35%;
 }
