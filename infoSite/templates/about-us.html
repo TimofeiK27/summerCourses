@@ -1,4 +1,4 @@
-{% extends "infoSite/layout.html" %}
+{% extends "layout.html" %}
 {% load static %}
 {% block body %}
         <h1 class="pageTitle">About Us</h1>
@@ -7,7 +7,7 @@
             <div class="bio">
                 <div class="nameandpic">
                     <h2>Evan Meltzer</h2>
-                    <img src="{% static 'infoSite/mrmeltzer.png' %}" alt="evan meltzer profile photo">
+                    <img src="{% static 'resources/mrmeltzer.png' %}" alt="evan meltzer profile photo">
                 </div>
                 <div class="biotextwrap">
                     <p>Evan loved filmmaking since he was 8 years old.
@@ -23,5 +23,5 @@
 {% endblock %}
 
 {% block script %}
-    <!--script src="{% static 'BoardGames/active.js' %}"></script-->
+   <script src="{% static 'scripts/about-us.js' %}"></script>
 {% endblock %}
