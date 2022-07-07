@@ -146,24 +146,7 @@ li {
     overflow: hidden;
 }
 
-#classList {
-    display:flex;
-    flex-flow: wrap;
-    text-align: center;
-    justify-content: center;
-}
-
-.classItem {
-    border: solid 2px green;
-    margin:4px;
-    padding:8px;
-    background: #bfffb3;
-    width: 500px;
-    height:250px;
-}
-
-
-.main-body {
+#main-body {
     display: flex;
     flex-flow: column nowrap;
 }
@@ -243,4 +226,25 @@ li {
 iframe {
     border:2px solid;
     margin-left:35%;
+}
+
+#classList {
+    display:flex;
+    flex-flow: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.classItem {
+    border: solid 2px green;
+    margin:4px;
+    padding:8px;
+    background: #bfffb3;
+    width: 500px;
+    height:500px;
+    user-select:none;
+}
+
+.classItem p {
+    overflow:hidden;
 }
