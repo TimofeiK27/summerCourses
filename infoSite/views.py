@@ -22,3 +22,6 @@ def classes(request):
 
 def contactus(request):
     return render(request, "contact-us.html")
+
+# images(request):
+#    return JsonResponse({"funtime"}, status=201)
