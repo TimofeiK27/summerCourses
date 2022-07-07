@@ -245,6 +245,14 @@ iframe {
     user-select:none;
 }
 
+.classItem h1 {
+    margin-bottom: 10px;
+}
+
 .classItem p {
     overflow:hidden;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.35rem;
+
 }
