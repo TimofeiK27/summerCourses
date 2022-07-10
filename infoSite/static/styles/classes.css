@@ -1,0 +1,39 @@
+/* Class Page */
+
+.classImage {
+    height:80%;
+    width:80%;
+}
+
+iframe {
+    border:2px solid;
+    margin-left:35%;
+}
+
+#classList {
+    display:flex;
+    flex-flow: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.classItem {
+    border: solid 2px green;
+    margin:4px;
+    padding:8px;
+    background: #bfffb3;
+    width: 500px;
+    height:500px;
+    user-select:none;
+}
+
+.classItem h1 {
+    margin-bottom: 10px;
+}
+
+.classItem p {
+    overflow:hidden;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.35rem;
+}
