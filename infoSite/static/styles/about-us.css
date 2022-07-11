@@ -1,0 +1,61 @@
+/*ABOUT US PAGE*/
+.pageTitle {
+    text-align: center;
+    margin: 80px 0 0;
+    font-size: 60px;
+}
+
+.bio {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 5% 10%;
+    width: 80%;
+
+    /*box-sizing: border-box;*/
+}
+
+.bio img {
+    min-width: 250px;
+    width: 100%;
+    width: 350px;
+    margin: 2% 0;
+}
+
+.nameandpic {
+    width: 75%;
+    height: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.biotextwrap {
+    padding: 50px 40px 0;
+}
+
+.bio p {
+    white-space: normal;
+    font-size: 40px;
+}
+
+.bio h2 {
+    font-size: 60px;
+}
+
+@media(max-width:1000px) {
+    .bio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nameandpic {
+        max-width: none;
+    }
+
+    #main-body {
+        margin: 0;
+        width: 100%;
+    }
+}
+

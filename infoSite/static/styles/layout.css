@@ -130,7 +130,7 @@ li {
 
 .wave {
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     top: var(--top-bar-height);
     left: 0;
     width: 100%;
@@ -150,7 +150,7 @@ li {
 }
 
 #background {
-    /*background-image: linear-gradient(20deg, gold, white);*/
+    background-image: linear-gradient(20deg, #e3ffea, white);
     /*background-image: radial-gradient(gold, white);*/
     position: absolute;
     width: 100vw;
@@ -160,8 +160,12 @@ li {
 }
 
 #main-body {
+    background: white;
+    position: relative;
     display: flex;
     flex-flow: column nowrap;
+    width: 80%;
+    margin: 0 10%;
 }
 
 

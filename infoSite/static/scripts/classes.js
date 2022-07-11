@@ -48,7 +48,6 @@
 	    	premierClass.replaceChild(description, premierClass.children[1]);
 
             clapper = 0;
-            console.log('rer3w2r3');
             break;
         default:
             console.log('not good');
