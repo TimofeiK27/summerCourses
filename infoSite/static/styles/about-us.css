@@ -5,16 +5,37 @@
     font-size: 60px;
 }
 
+#firstbio {
+    margin-top: 10%;
+}
+
 .bio {
     display: flex;
     flex-flow: row nowrap;
-    margin: 5% 10%;
+    margin: 15% 10%;
     width: 80%;
 
     /*box-sizing: border-box;*/
 }
 
-.bio img {
+.evenbio {
+    flex-direction: row-reverse;
+}
+
+.biotextwrap {
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.evenbio .biotextwrap {
+    padding-left: 0;
+    padding-right: 60px;
+}
+
+.profile-pic {
     min-width: 250px;
     width: 100%;
     width: 350px;
@@ -30,14 +51,20 @@
     align-items: center;
 }
 
-.biotextwrap {
-    padding: 50px 40px 0;
-}
-
 .bio p {
     white-space: normal;
-    font-size: 40px;
+    font-size: 2rem;
 }
+
+/*.clapperboard {
+    width: 200px;
+    height: 200px;
+}
+
+.clapperboard img {
+    width: 100%;
+    height: 100%;
+}*/
 
 .bio h2 {
     font-size: 60px;
