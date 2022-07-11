@@ -1,7 +1,23 @@
-document.addEventListener('DOMContentLoaded', () => {
+/* document.addEventListener('DOMContentLoaded', () => {
     let clapper = 1;
 
     const premierClass = document.querySelector('#PremierePro');
+
+    const newspaperSpinning = [
+          { transform: 'rotate(0) scale(1)' },
+          { transform: 'rotate(360deg) scale(0)' }
+        ];
+
+        const newspaperTiming = {
+          duration: 2000,
+          iterations: 1,
+        }
+
+        const newspaper = document.querySelector("#test");
+
+        newspaper.addEventListener('mouseover', () => {
+          premierClass.children[1].animate(newspaperSpinning, newspaperTiming);
+        });
 
 
 
@@ -42,6 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 	    console.log('hi');
-    })
-    console.log('bye');
-});
+
+        console.log('bye');
+
+)};
+
+*/
