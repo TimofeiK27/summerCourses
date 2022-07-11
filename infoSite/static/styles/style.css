@@ -232,13 +232,13 @@ li {
 /* Class Page */
 
 .classImage {
-    height:200px;
+    height:300px;
     margin:20px;
 }
 
 iframe {
     border:2px solid;
-    margin-left:35%;
+    margin: auto;
 }
 
 #classList {
@@ -260,14 +260,13 @@ iframe {
     margin-bottom: 10px;
     justify-content:top;
     width:100%;
-
 }
 
 p {
     overflow:hidden;
     padding: 15px;
     text-align: left;
-    font-size: 2rem;
+    font-size: 2.2rem;
 
 }
 
