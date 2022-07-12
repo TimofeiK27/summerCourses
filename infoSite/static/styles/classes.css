@@ -1,5 +1,33 @@
 /* Class Page */
 
+#classHeader {
+    text-align:center;
+    margin:20px;
+    border-top: 4px dashed rgba(152, 197, 180, 0.8);
+    border-bottom: 4px dashed rgba(152, 197, 180, 0.8);
+    width:96.5%
+}
+
+#classHeader ul {
+    /*display: inline-block;*/
+}
+
+#classHeader li {
+    list-style: circle;
+    font-size: 1.5rem;
+    padding: 1%;
+    text-align: left;
+}
+
+#infolist {
+    margin-left: 5%;
+}
+
+.sublist {
+    margin-left: 50px;
+}
+
+
 .classImage {
     height:300px;
     margin:20px;
@@ -39,10 +67,4 @@ p {
 
 }
 
-#classHeader {
-    text-align:center;
-    margin:20px;
-    border-top: 4px dashed rgba(152, 197, 180, 0.8);
-    border-bottom: 4px dashed rgba(152, 197, 180, 0.8);
-    width:96.5%
-}
+
