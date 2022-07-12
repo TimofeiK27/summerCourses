@@ -30,7 +30,12 @@
 
 .classImage {
     height:300px;
-    margin:20px;
+    width: 300px;
+/*    margin:20px;*/
+}
+
+#scratch-img {
+    width: 500px;
 }
 
 iframe {
@@ -45,18 +50,23 @@ iframe {
     justify-content: center;
 }
 
+.classItemWrap {
+    margin-top: 100px;
+}
+
 .classItem {
     display: flex;
-    display:flex;
     margin:18px;
-    padding:25px;
-
 }
 
 .classItem h1 {
     margin-bottom: 10px;
     justify-content:top;
     width:100%;
+}
+
+.classItem p {
+    font-size: 1.7rem;
 }
 
 p {
@@ -67,4 +77,24 @@ p {
 
 }
 
+@media(max-width:1000px) {
+    .classItem {
+        flex-flow: column;
+    }
 
+    .classItem p {
+        font-size: 5vw;
+        text-align: justify;
+    }
+
+    .classImage {
+        margin: 5vw 10vw;
+        width: 60vw;
+        height: 60vw;
+    }
+
+    #scratch-img {
+        height: 50vw;
+        width: 80vw;
+    }
+}

@@ -4,7 +4,6 @@
     <h1 class="pageTitle">Classes</h1>
     <div id="classHeader">
         <p>Right now we are providing three classes, their descriptions are below.
-                    Classes will take place on Mondays and Wednesdays from July 18th to August 3rd
         </p>
         <ul id="infolist">
             <li>All classes are offered for ages 11-14</li>
@@ -24,32 +23,32 @@
         </ul>
     </div>
     <div id="classList">
-        <div id="PremierePro" >
-            <h1 class="classItemTitle">Video Editing</h1>
+        <div id="PremierePro" class="classItemWrap">
+            <h1 class="classItemTitle">Film Making</h1>
             <div class="classItem">
-                <img src="{% static 'resources/clapperopen.png' %}" alt="evan meltzer profile photo" class="classImage">
+                <img src="{% static 'resources/clapperopen.png' %}" alt="open clapperboard" class="classImage">
                  <p>
                     Have you ever wanted to be a superhero? With Premiere Pro you can be! In this course you will learn the basics of Premiere Pro, including keyframes, masking, and special effects. In addition to learning about the digital side of filmmaking, we will also explore the practical side, using miniatures, gravity, and green screens to our advantage. The course will culminate with you making a visual effects shot with any superpower of your choosing.
                  </p>
              </div>
         </div>
-        <div>
+        <div class="classItemWrap">
             <h1 class="classItemTitle">Coding</h1>
              <div class="classItem">
-                 <p style="width:85%">Have you ever wanted to make your own game? Well now you can!
+                 <p>Have you ever wanted to make your own game? Well now you can!
                      In this course, we will use Block coding to make game design easier than ever before.
                      This course is a perfect introduction for beginners to the awesome world of coding.
                      Students will use Scratch and Code.org to design fun games and solve challenging problems.
                      You will learn to problem solve and think like a real computer scientist, and have lots of fun along the way!
                  </p>
-                 <img src="{% static 'resources/scratchImage.jpg' %}" alt="evan meltzer profile photo" class="classImage" >
+                 <img id="scratch-img" src="{% static 'resources/scratchImage.jpg' %}" alt="scratch image" class="classImage" >
              </div>
 
         </div>
-        <div>
+        <div class="classItemWrap">
             <h1 class="classItemTitle">Art</h1>
              <div class="classItem">
-                <img src="{% static 'resources/paintingImage.jpg' %}" alt="evan meltzer profile photo" class="classImage">
+                <img src="{% static 'resources/paintingImage.jpg' %}" alt="painting image" class="classImage">
                 <p>Superpower Premiere Pro
                     Open to all Middle Schoolers
                     July 18th-July 22nd
