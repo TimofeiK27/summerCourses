@@ -10,6 +10,11 @@
 
 #classHeader ul {
     /*display: inline-block;*/
+    margin-left:10%;
+}
+#classDescription {
+    text-align: center;
+    font-size:30px;
 }
 
 #classHeader li {
@@ -31,6 +36,7 @@
 .classImage {
     height:300px;
     width: 300px;
+    margin:auto;
 /*    margin:20px;*/
 }
 
@@ -47,11 +53,11 @@ iframe {
     margin-left:5%;
     margin-right:5%;
     text-align: center;
-    justify-content: center;
+
 }
 
 .classItemWrap {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .classItem {
@@ -88,7 +94,7 @@ p {
     }
 
     .classImage {
-        margin: 5vw 10vw;
+        padding-bottom: 20px;
         width: 60vw;
         height: 60vw;
     }
@@ -96,5 +102,17 @@ p {
     #scratch-img {
         height: 50vw;
         width: 80vw;
+    }
+    #classHeader {
+        margin-right:7%;
+        width:94%;
+    }
+
+    #classDescription {
+        font-size:4vw;
+    }
+
+    #classHeader li {
+        font-size:3vw;
     }
 }

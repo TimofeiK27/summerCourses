@@ -3,8 +3,9 @@
 {% block body %}
     <h1 class="pageTitle">Classes</h1>
     <div id="classHeader">
-        <p>Right now we are providing three classes, their descriptions are below.
+        <p id="classDescription">Right now we are providing three classes, their descriptions are below.
         </p>
+
         <ul id="infolist">
             <li>All classes are offered for ages 11-14</li>
             <li>Classes will take place on Mondays and Wednesdays from July 18th to August 3rd
@@ -19,19 +20,9 @@
                     <li>Drawing: 3:00 pm to 4:20 pm</li>
                 </ul>
             </li>
-
         </ul>
     </div>
     <div id="classList">
-        <div id="PremierePro" class="classItemWrap">
-            <h1 class="classItemTitle">Film Making</h1>
-            <div class="classItem">
-                <img src="{% static 'resources/clapperopen.png' %}" alt="open clapperboard" class="classImage">
-                 <p>
-                    Have you ever wanted to be a superhero? With Premiere Pro you can be! In this course you will learn the basics of Premiere Pro, including keyframes, masking, and special effects. In addition to learning about the digital side of filmmaking, we will also explore the practical side, using miniatures, gravity, and green screens to our advantage. The course will culminate with you making a visual effects shot with any superpower of your choosing.
-                 </p>
-             </div>
-        </div>
         <div class="classItemWrap">
             <h1 class="classItemTitle">Coding</h1>
              <div class="classItem">
@@ -46,6 +37,16 @@
              </div>
 
         </div>
+        <div id="PremierePro" class="classItemWrap">
+            <h1 class="classItemTitle">Film Making</h1>
+            <div class="classItem">
+                <img src="{% static 'resources/clapperopen.png' %}" alt="open clapperboard" class="classImage">
+                 <p>
+                    Have you ever wanted to be a superhero? With Premiere Pro you can be! In this course you will learn the basics of Premiere Pro, including keyframes, masking, and special effects. In addition to learning about the digital side of filmmaking, we will also explore the practical side, using miniatures, gravity, and green screens to our advantage. The course will culminate with you making a visual effects shot with any superpower of your choosing.
+                 </p>
+             </div>
+        </div>
+
         <div class="classItemWrap">
             <h1 class="classItemTitle">Art</h1>
              <div class="classItem">
