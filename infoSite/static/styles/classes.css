@@ -37,11 +37,19 @@
     height:300px;
     width: 300px;
     margin:auto;
+    float: left;
+    margin-right: 30px;
 /*    margin:20px;*/
 }
 
 #scratch-img {
     width: 500px;
+}
+
+#clapperboard {
+    float: right;
+    margin-right: 0;
+    margin-left: 30px;
 }
 
 iframe {
@@ -57,7 +65,7 @@ iframe {
 }
 
 .classItemWrap {
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .classItem {
