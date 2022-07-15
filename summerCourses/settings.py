@@ -29,6 +29,9 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 STATIC_URL = 'static/'
+
+#STATIC FOLDER LOCATION ON SERVER
+STATIC_ROOT = '/var/www/django/ecerp/erp/static'
 # Application definition
 
 INSTALLED_APPS = [
