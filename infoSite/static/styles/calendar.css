@@ -1,0 +1,51 @@
+.calendar {
+    width: 100%;
+    margin: 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border-bottom: 4px solid #a8d08d;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+td {
+  border: 2px solid #a8d08d;
+  text-align: left;
+  padding: 10px 20px;
+  vertical-align: baseline;
+  width: 20%;
+}
+
+td:first-child {
+    border-left: none;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+td .dateofclass {
+    margin-left: 13px;
+}
+
+.classtimeentry {
+    margin: 20px 0;
+    padding: 10px 13px;;
+    line-height: 1.6;
+}
+.compsci {
+    background-color: #ffe599;
+}
+
+.moviemake {
+    background-color: #bcccea;
+}
+
+.drawing {
+    background-color: #c5e0b3;
+}
