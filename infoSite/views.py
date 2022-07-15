@@ -20,8 +20,8 @@ def classes(request):
     return render(request, "classes.html")
 
 
-def contactus(request):
-    return render(request, "contact-us.html")
+def signup(request):
+    return render(request, "sign-up.html")
 
 # images(request):
 #    return JsonResponse({"funtime"}, status=201)
