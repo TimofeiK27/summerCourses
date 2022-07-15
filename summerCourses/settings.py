@@ -20,17 +20,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-tfh9^38q^dz6ep*pyk6^mtt1=$d*5d&w)9u7senmu&ggwosw1)'
+with open('secret_key.txt') as f:
+    SECRET_KEY = f.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
 STATIC_URL = 'static/'
-
-#STATIC FOLDER LOCATION ON SERVER
-STATIC_ROOT = '/var/www/django/ecerp/erp/static'
 # Application definition
 
 INSTALLED_APPS = [
