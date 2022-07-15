@@ -15,18 +15,18 @@ class Calendar extends HTMLElement {
                     <tr>
                         <td>
                             <span class="dateofclass">July <strong>18<sup>th</sup></strong></span>
-                            <div class="classtimeentry compsci">
+                            <a href="#comp-sci-description"><div class="classtimeentry compsci">
                                 <span><strong>Computer Science:</strong></span><br>
                                 <span>12:00 PM — 1:20 PM</span>
-                            </div>
-                            <div class="classtimeentry moviemake">
+                            </div></a>
+                            <a href="#film-making-description"><div class="classtimeentry moviemake">
                                 <span><strong>Movie Making:</strong></span><br>
                                 <span>1:30 PM — 2:50 PM</span>
-                            </div>
-                            <div class="classtimeentry drawing">
+                            </div></a>
+                            <a href="#drawing-description"><div class="classtimeentry drawing">
                                 <span><strong>Drawing/Cartooning:</strong></span><br>
                                 <span>3:00 PM — 4:20 PM</span>
-                            </div>
+                            </div></a>
                         </td>
                         <td>
                             July <strong>19<sup>th</sup></strong>
