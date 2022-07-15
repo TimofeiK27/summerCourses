@@ -23,11 +23,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-tfh9^38q^dz6ep*pyk6^mtt1=$d*5d&w)9u7senmu&ggwosw1)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
 STATIC_URL = 'static/'
+
+#STATIC FOLDER LOCATION ON SERVER
+STATIC_ROOT = '/var/www/django/ecerp/erp/static'
 # Application definition
 
 INSTALLED_APPS = [
