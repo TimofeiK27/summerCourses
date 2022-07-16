@@ -23,5 +23,5 @@ def classes(request):
 def signup(request):
     return render(request, "sign-up.html")
 
-# images(request):
-#    return JsonResponse({"funtime"}, status=201)
+def translate(request):
+    return JsonResponse([1, 2, 3, 4], status=201, safe=False)

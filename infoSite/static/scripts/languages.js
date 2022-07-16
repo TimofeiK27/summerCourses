@@ -1,10 +1,12 @@
-let langdata = require('./translations.json');
-console.log(langdata);
+
 
 //apply the language values to the content
 document.addEventListener('DOMContentLoaded', () => {
-
-    console.log('asfsa');
+    fetch('/translations')
+    .then(response => response.json())
+    .then(response => {
+        console.log(response);
+    })
     localStorage.setItem('lang', 'en');
     let zones = document.querySelectorAll('[data-key]');
     applyStrings(zones);
