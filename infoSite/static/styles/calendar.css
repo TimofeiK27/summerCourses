@@ -7,6 +7,11 @@ table {
     border-collapse: collapse;
 }
 
+table p {
+    padding: 0;
+    font-size: 1em;
+}
+
 th {
     border-bottom: 4px solid #a8d08d;
     padding-bottom: 10px;
@@ -21,6 +26,11 @@ td {
   width: 20%;
 }
 
+td a {
+  color: black;
+  text-decoration: none;
+}
+
 td:first-child {
     border-left: none;
 }
@@ -29,7 +39,7 @@ td:last-child {
     border-right: none;
 }
 
-td .dateofclass {
+td .classdate {
     margin-left: 13px;
 }
 
@@ -49,9 +59,4 @@ td .dateofclass {
 
 .drawing {
     background-color: #c5e0b3;
-}
-
-td a {
-    color: black;
-  text-decoration: none;
 }
