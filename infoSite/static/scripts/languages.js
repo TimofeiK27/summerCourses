@@ -1,26 +1,34 @@
-
-
+const langdata = {
+    "en": {
+        "home": "Project Caravel",
+        "about us": "About Us",
+        "classes": "Classes",
+        "sign up": "Sign Up"
+    },
+    "ru": {
+        "home": "Проект Каравелла",
+        "about us": "О Нас",
+        "classes": "Классы",
+        "sign up": "Регистрация"
+    }
+};
 //apply the language values to the content
+
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('/translations')
-    .then(response => response.json())
-    .then(response => {
-        console.log(response);
-    })
-    localStorage.setItem('lang', 'en');
+    localStorage.setItem('lang', 'ru');
     let zones = document.querySelectorAll('[data-key]');
     applyStrings(zones);
 });
 
 function applyStrings(elements) {
-    let locale = localStorage.getItem('lang');
+    let lang = localStorage.getItem('lang');
     elements.forEach(element => {
-        let key = element.getAttribute('data-key');
+    let key = element.getAttribute('data-key');
         //console.log(element);
         //console.log(key);
-        /*let lang = locale.substr(0, 2); //first 2 characters*/
+
         if (key) {
-            element.textContent = langdata.languages[lang].strings[key];
+            element.textContent = langdata[lang][key];
         }
     });
 }

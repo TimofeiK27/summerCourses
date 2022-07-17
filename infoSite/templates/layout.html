@@ -20,8 +20,7 @@
         <script type="text/javascript" src="translations.json"></script>
         <script src="{% static 'scripts/languages.js' %}"></script>
         <script src="{% static 'scripts/calendar.js' %}"></script>
-        <script type="text/javascript" src="translations.json"></script>
-        <script src="{% static 'scripts/languages.js' %}"></script>
+        <!--<script type="text/javascript" src="translations.json"></script>-->
         {% block script%}
 		{% endblock %}
         
@@ -34,10 +33,10 @@
                 <a href="/"><img id="luckylogo" src="{% static 'resources/lucky-pen-logo.png' %}" alt="lucky pen logo"></a>
                 <nav id="navButtons">
                     <ul>
-                      <li><a href="/">Home</a></li>
-                      <li><a href="/about-us">About Us</a></li>
-                      <li><a href="/classes">Classes</a></li>
-                      <li><a href="/sign-up">Sign up</a></li>
+                      <li><a href="/" data-key="home">Home</a></li>
+                      <li><a href="/about-us" data-key="about us">About Us</a></li>
+                      <li><a href="/classes" data-key="classes">Classes</a></li>
+                      <li><a href="/sign-up" data-key="sign up">Sign up</a></li>
                     </ul>
                 </nav>
                 <div class="wave">

@@ -6,5 +6,5 @@ urlpatterns = [
 	path("classes", views.classes),
 	path("sign-up", views.signup),
 	# API Routes
-    path("translations", views.translate, name="translate"),
+#    path("translations", views.translate, name="translate"),
 ]
