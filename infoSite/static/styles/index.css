@@ -14,3 +14,17 @@
 #homeschedule {
     margin: 0 20px;
 }
+
+#students {
+    font-size:1.5em;
+    text-align:center;
+    margin:15 px;
+    color:green;
+}
+
+.studentURL {
+    color:green;
+    font-size:2em;
+    text-align:center;
+    margin:15px;
+}

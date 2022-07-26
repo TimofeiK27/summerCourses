@@ -23,5 +23,11 @@ def classes(request):
 def signup(request):
     return render(request, "sign-up.html")
 
+def students(request):
+    return render(request, "students.html")
+
+def student(request, stu):
+    return render(request, stu + ".html")
+
 # images(request):
 #    return JsonResponse({"funtime"}, status=201)

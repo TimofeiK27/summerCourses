@@ -52,6 +52,12 @@
     margin-left: 30px;
 }
 
+#web-development {
+    float: right;
+    margin-right: 0;
+    margin-left: 30px;
+}
+
 #classList {
     margin-left:5%;
     margin-right:5%;
@@ -104,7 +110,12 @@ p {
 
     #scratch-img {
         height: 50vw;
-        width: 80vw;
+        width: 70vw;
+    }
+
+    #web-development {
+        height: 50vw;
+        width: 50vw;
     }
     #classHeader {
         margin-right:7%;
