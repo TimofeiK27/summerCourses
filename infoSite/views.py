@@ -27,7 +27,7 @@ def students(request):
     return render(request, "students.html")
 
 def student(request, stu):
-    return render(request, stu + ".html")
+    return render(request, "student-websites/" + stu + ".html")
 
 # images(request):
 #    return JsonResponse({"funtime"}, status=201)
