@@ -1,14 +1,21 @@
 {% extends "layout.html" %}
 {% load static %}
 {% block body %}
-    <div class="">
+    <div>
         <h1 id="welcome" >Welcome to the Caravel Project!</h1>
         <div>
             <h3 class="tagline">Our mission is to teach and our vision is to spark new interests.</h3>
         </div>
     </div>
-    <img id="scratch-img" src="{% static 'resources/seaofthieves.jpg' %}" alt="lols" class="classImage" >
-    <a href="/students" id="students"> Click Here To See Student's Web Development HTML files</a>
+
+    <a href="/student-websites" class="studentMadeLink">
+        <div class="studentMadeBtn">Click Here To See Student's Web Development HTML files</div>
+    </a>
+    <a href="/student-videos" class="studentMadeLink" id="lastbtn">
+        <div class="studentMadeBtn">Click Here To See Student's Videos</div>
+    </a>
+    <img id="ship" src="{% static 'resources/seaofthieves.jpg' %}" alt="sea of thieves ship">
+
 {% endblock %}
 
 {% block script %}
