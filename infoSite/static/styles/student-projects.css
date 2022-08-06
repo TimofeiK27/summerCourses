@@ -1,0 +1,10 @@
+.studentvidsheader {
+    text-align: center;
+    font-size: 4.5vw;
+    margin: 1em 0;
+}
+
+.studentvideo {
+    width: 80%;
+    margin: 30px auto;
+}

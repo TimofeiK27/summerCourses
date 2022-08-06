@@ -2,16 +2,17 @@
 {% load static %}
 {% block body %}
     <div>
-        <h1 id="welcome" data-key="welcome text">Welcome to the Caravel Project!</h1>
+        <h1 class="welcome" data-key="welcome text">Welcome to the Caravel Project!</h1>
         <div>
             <h3 class="tagline" data-key="catchphrase">Classes to empower and inspire teen Ukrainian refugees</h3>
         </div>
     </div>
 
-    <a href="/student-websites" class="studentMadeLink greentext">
-        <div class="studentMadeBtn" data-key="student projects button">Click Here To See Student's Web Development HTML files</div>
+    <a href="/student-projects" class="prettyButtonLinkWrap greentext">
+        <div class="prettyButton" data-key="student projects button">Click Here To See Student Projects</div>
     </a>
-    <img id="ship" src="{% static 'resources/seaofthieves.jpg' %}" alt="sea of thieves ship">
+    <!-- <img id="ship" src="{% static 'resources/seaofthieves.jpg' %}" alt="sea of thieves ship"> -->
+    <object data="{% static 'resources/Artboard 2.svg' %}" width="300px" height="300px"></object>
 
 {% endblock %}
 

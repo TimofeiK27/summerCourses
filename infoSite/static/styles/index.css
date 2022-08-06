@@ -1,4 +1,4 @@
-#welcome {
+.welcome {
     font-size:4.5vw;
     font-weight:bold;
     margin-top:60px;
@@ -15,16 +15,16 @@
     margin: 0 20px;
 }
 
-.studentMadeLink {
+.prettyButtonLinkWrap {
     font-size:1.5em;
     text-align:center;
     font-weight: bold;
     text-decoration: none;
-    margin: 15px auto 30px;
+    margin: 20px auto;
     width: 60%;
 }
 
-.studentMadeBtn {
+.prettyButton {
     padding: 1em;
     /* border: 3px solid black; */
     /* border-radius: 15px; */
@@ -32,7 +32,7 @@
     filter: drop-shadow(7px 7px 6px #bcbcbc);
 }
 
-.studentMadeBtn:hover {
+.prettyButton:hover {
     background-color: rgb(156, 213, 156);
 }
 
