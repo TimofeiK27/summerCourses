@@ -1,7 +1,7 @@
 #welcome {
     font-size:4.5vw;
     font-weight:bold;
-    margin-top:30px;
+    margin-top:60px;
     text-align:center;
 }
 
@@ -19,25 +19,21 @@
     font-size:1.5em;
     text-align:center;
     font-weight: bold;
-    color: black;
     text-decoration: none;
-    margin: 15px auto;
-}
-
-#lastbtn {
-    margin-bottom: 30px;
+    margin: 15px auto 30px;
+    width: 60%;
 }
 
 .studentMadeBtn {
-    padding: 5px;
-    width: 90%;
-    border: 3px solid black;
-    border-radius: 15px;
-    background-color: #0f0;
+    padding: 1em;
+    /* border: 3px solid black; */
+    /* border-radius: 15px; */
+    background-color: rgb(163, 227, 163);
+    filter: drop-shadow(7px 7px 6px #bcbcbc);
 }
 
 .studentMadeBtn:hover {
-    background-color: #0c0;
+    background-color: rgb(156, 213, 156);
 }
 
 #ship {
