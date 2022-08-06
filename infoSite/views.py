@@ -20,8 +20,11 @@ def classes(request):
     return render(request, "classes.html")
 
 
-def signup(request):
-    return render(request, "sign-up.html")
+# def signup(request):
+#     return render(request, "sign-up.html")
+
+def calendar(request):
+    return render(request, "calendar.html")
 
 def student_websites(request):
     return render(request, "student-websites.html")

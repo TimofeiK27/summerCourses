@@ -9,6 +9,14 @@ li {
     list-style: none;
 }
 
+:root {
+    --text-green: #16613d;
+}
+
+.greentext {
+    color: var(--text-green);
+}
+
 #tab {
 /*--top-bar-color: #7adc77;*/
     --top-bar-color: #9ce69a;
@@ -98,7 +106,6 @@ li {
     }
 }
 #tab li a {
-    --text-green: #1d8351;
     color: var(--text-green);
     /*color: hsl(0, 0%, 30%);*/
     text-decoration: none;
