@@ -15,9 +15,18 @@ const langdata = {
 //apply the language values to the content
 
 document.addEventListener('DOMContentLoaded', () => {
-    localStorage.setItem('lang', 'ru');
+    if (!localStorage.getItem('lang')) {
+        localStorage.setItem('lang', 'en');
+    }
     let zones = document.querySelectorAll('[data-key]');
     applyStrings(zones);
+    document.getElementById('langMenu').value = localStorage.getItem('lang');
+    document.getElementById('langMenu').addEventListener('change', e => {
+        console.log(e.target.value);
+        localStorage.setItem('lang', e.target.value);
+        applyStrings(document.querySelectorAll('[data-key]'));
+
+    })
 });
 
 function applyStrings(elements) {

@@ -29,8 +29,17 @@
     <body>
         <div id="background">
             <header id="tab">
-
-                <a href="/"><img id="luckylogo" src="{% static 'resources/lucky-pen-logo.png' %}" alt="lucky pen logo"></a>
+                <div style="display:flex;flex-direction:column;">
+                    <a id="logoLink" href="/"><img id="luckylogo" src="{% static 'resources/lucky-pen-logo.png' %}" alt="lucky pen logo"></a>
+                    <div>
+                        
+                        <label for="lang"><img id="langImg" src="{% static 'resources/lang.png'%}"></label>
+                        <select name="lang" id="langMenu"> 
+                            <option value="en">English</option>
+                            <option value="ru">Русский</option>
+                        </select>   
+                    </div>
+                </div>
                 <nav id="navButtons">
                     <ul>
                       <li><a href="/" data-key="home">Home</a></li>
@@ -46,6 +55,8 @@
                 </div>
             </header>
             <div id="main-body">
+
+                
                 {% block body %}
                 {% endblock %}
             </div>
