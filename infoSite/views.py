@@ -26,8 +26,8 @@ def classes(request):
 def calendar(request):
     return render(request, "calendar.html")
 
-def student_websites(request):
-    return render(request, "student-websites.html")
+def student_projects(request):
+    return render(request, "student-projects.html")
 
 def student_website(request, stu):
     return render(request, "student-websites/" + stu + ".html")
