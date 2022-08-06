@@ -14,3 +14,39 @@
 #homeschedule {
     margin: 0 20px;
 }
+
+.studentMadeLink {
+    font-size:1.5em;
+    text-align:center;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin: 15px auto;
+}
+
+#lastbtn {
+    margin-bottom: 30px;
+}
+
+.studentMadeBtn {
+    padding: 5px;
+    width: 90%;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #0f0;
+}
+
+.studentMadeBtn:hover {
+    background-color: #0c0;
+}
+
+#ship {
+    width: 500px;
+    margin: auto;
+}
+
+@media (max-width: 1000px) {
+    #ship {
+        width: 70vw;
+    }
+}

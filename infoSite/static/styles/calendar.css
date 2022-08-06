@@ -1,5 +1,4 @@
 .calendar {
-    width: 100%;
     margin: 20px 0;
 }
 
@@ -59,4 +58,10 @@ td .classdate {
 
 .drawing {
     background-color: #c5e0b3;
+}
+
+@media(max-width:1000px) {
+    .calendar {
+        display:none;
+    }
 }

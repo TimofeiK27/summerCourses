@@ -38,7 +38,7 @@
     width: 300px;
     margin:auto;
     float: left;
-    margin-right: 30px;
+/*    margin-right: 30px;*/
 /*    margin:20px;*/
 }
 
@@ -47,6 +47,12 @@
 }
 
 #clapperboard {
+    float: right;
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+#web-development {
     float: right;
     margin-right: 0;
     margin-left: 30px;
@@ -93,7 +99,7 @@ p {
 
     .classItem p {
         font-size: 5vw;
-        text-align: justify;
+        text-align: justify-left;
     }
 
     .classImage {
@@ -104,7 +110,12 @@ p {
 
     #scratch-img {
         height: 50vw;
-        width: 80vw;
+        width: 70vw;
+    }
+
+    #web-development {
+        height: 50vw;
+        width: 50vw;
     }
     #classHeader {
         margin-right:7%;

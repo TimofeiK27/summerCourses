@@ -1,10 +1,12 @@
 iframe.googleform {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 4px;
+    width:100%;
 }
 
 .formlink {
-    font-size: 1.5em;
+    font-size: .8em;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
+    text-align:center;
 }

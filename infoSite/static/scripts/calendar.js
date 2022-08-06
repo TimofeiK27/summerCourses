@@ -1,14 +1,14 @@
 const CODING = `<a href="/classes#coding"><div class="classtimeentry compsci">
-                    <span><strong>Coding:</strong></span><br>
-                    <span>12:00 PM — 1:20 PM</span>
+                    <div><strong>Coding:</strong></div>
+                    <div>12:00 PM — 1:20 PM</div>
                 </div></a>`;
 const FILM_MAKING = `<a href="/classes#film-making"><div class="classtimeentry moviemake">
-                        <span><strong>Movie Making:</strong></span><br>
-                        <span>1:30 PM — 2:50 PM</span>
+                        <div><strong>Movie Making:</strong></div>
+                        <div>1:30 PM — 2:50 PM</div>
                      </div></a>`;
 const ART = `<a href="/classes#art"><div class="classtimeentry drawing">
-                 <span><strong>Drawing/Cartooning:</strong></span><br>
-                 <span>3:00 PM — 4:20 PM</span>
+                 <div><strong>Drawing/Cartooning:</strong></div>
+                 <div>3:00 PM — 4:20 PM</div>
              </div></a>`;
 
 class Calendar extends HTMLElement {
