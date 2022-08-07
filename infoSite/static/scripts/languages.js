@@ -3,7 +3,7 @@ const langdata = {
         "home": "Project Caravel",
         "about us": "About Us",
         "classes": "Classes",
-        "sign up": "Sign Up",
+        "student projects": "Student Projects",
         "welcome text":"Welcome to the Caravel Project!",
         "catchphrase":"Classes to empower and inspire teen Ukrainian refugees",
         "student projects button":"Click Here To See Student's Web Development HTML files",
