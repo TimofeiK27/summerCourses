@@ -74,8 +74,7 @@ li {
 
     }
     #luckylogo {
-        width:90px;
-        height:70px !important;
+        height:55px !important;
     }
     #tab ul {
         width:100%;
@@ -142,14 +141,22 @@ li {
     transform-origin: center;
 }
 
-
+#logoLink {
+    height:60px;
+}
 
 #luckylogo {
-    height: 80%;
+    height: 100%;
     margin: 8%;
     display: inline;
     /*
     box-sizing: border-box;*/
+}
+
+select {
+    width:100px; 
+    margin: 13px 0px 0px 6px;
+
 }
 
 .wave {
@@ -204,4 +211,8 @@ li {
     font-size:6vw;
     margin-top: 40px;
     margin-bottom: 20px;
+}
+
+#langImg{
+    width:15px;
 }

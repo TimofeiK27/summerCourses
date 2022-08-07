@@ -9,5 +9,5 @@ urlpatterns = [
 	path("student-websites/<str:stu>", views.student_website),
 	path("student-videos", views.student_videos)
 	# API Routes
-    #path("images", views.images, name="image"),
+#    path("translations", views.translate, name="translate"),
 ]

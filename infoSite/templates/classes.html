@@ -1,36 +1,36 @@
 {% extends "layout.html" %}
 {% load static %}
 {% block body %}
-    <h1 class="pageTitle">Classes</h1>
+    <h1 class="pageTitle" data-key="Classes title">Classes</h1>
     <div id="classHeader">
-        <p id="classDescription">Right now we are providing three classes, their descriptions are below.
+        <p id="classDescription" data-key="description of all classes">Right now we are providing three classes, their descriptions are below.
         </p>
 
         <ul id="infolist">
-            <li>All classes are offered for ages 11-14</li>
-            <li>Classes will take place on Mondays and Wednesdays from July 18th to August 3rd
+            <li data-key="classes offered for ages">All classes are offered for ages 11-14</li>
+            <li data-key="classes take place on Mon Wed">Classes will take place on Mondays and Wednesdays from July 18th to August 3rd
                 <ul class="sublist">
-                    <li>July 18th, July 20th, July 25th, July 27th, August 1st, August 3rd</li>
+                    <li data-key="dates">July 18th, July 20th, July 25th, July 27th, August 1st, August 3rd</li>
                 </ul>
             </li>
-            <li>Classes will be held at the following times
+            <li data-key="classes will be held">Classes will be held at the following times
                 <ul class="sublist">
-                    <li>Coding: 12:00 pm to 1:20 pm</li>
-                    <li>Filmmaking: 1:30 pm to 2:50 pm</li>
-                    <li>Drawing: 3:00 pm to 4:20 pm</li>
+                    <li data-key="coding time">Coding: 12:00 pm to 1:20 pm</li>
+                    <li data-key="film time">Filmmaking: 1:30 pm to 2:50 pm</li>
+                    <li data-key="draw time">Drawing: 3:00 pm to 4:20 pm</li>
                 </ul>
             </li>
         </ul>
     </div>
     <div id="classList">
         <div id="coding" class="classItemWrap">
-            <h1 class="classItemTitle">Website Development (Coding)</h1>
+            <h1 class="classItemTitle" data-key="webDev title">Website Development (Coding)</h1>
              <div class="classItem">
                  <p><img id="web-development" src="{% static 'resources/web_development.png' %}" alt="website image" class="classImage" >
-                    Developing your own website might seem like a challenge, but this course helps break it down into simple ideas.
+                    <span data-key="webDev body">Developing your own website might seem like a challenge, but this course helps break it down into simple ideas.
                     In this class, you will use HTML, CSS, and Javascript to design and develop interactive webpages. Students will get to choose their
                      own website ideas which they will implement and put on the web. Creativity has no boundaries with this class and students visions
-                     for website will become reality.
+                     for website will become reality.</span>
 
                  </p>
 
@@ -39,34 +39,38 @@
         </div>
          <div id="classList">
         <div id="coding" class="classItemWrap">
-            <h1 class="classItemTitle">Coding with Scratch (Coding)</h1>
+            <h1 class="classItemTitle" data-key="scratch title">Coding with Scratch (Coding)</h1>
              <div class="classItem">
                  <p><img id="scratch-img" src="{% static 'resources/scratchImage.jpg' %}" alt="scratch image" class="classImage" >
-                     Have you ever wanted to make your own game? Well now you can!
+                     <span data-key="scratch coding">Have you ever wanted to make your own game? Well now you can!
                      In this course, we will use Block coding to make game design easier than ever before.
                      This course is a perfect introduction for beginners to the awesome world of coding.
                      Students will use Scratch and Code.org to design fun games and solve challenging problems.
-                     You will learn to problem solve and think like a real computer scientist, and have lots of fun along the way!
+                     You will learn to problem solve and think like a real computer scientist, and have lots of fun along the way!</span>
                  </p>
 
              </div>
 
         </div>
         <div id="film-making" class="classItemWrap">
-            <h1 class="classItemTitle">Film Making</h1>
+            <h1 class="classItemTitle" data-key="film title">Film Making</h1>
             <div class="classItem">
-                 <p><img src="{% static 'resources/clapperopen.png' %}" alt="open clapperboard" id="clapperboard"class="classImage">
-                    Have you ever wanted to be a superhero? With Premiere Pro you can be! In this course you will learn the basics of Premiere Pro, including keyframes, masking, and special effects. In addition to learning about the digital side of filmmaking, we will also explore the practical side, using miniatures, gravity, and green screens to our advantage. The course will culminate with you making a visual effects shot with any superpower of your choosing.
+                 <p><img src="{% static 'resources/clapperopen.png' %}" alt="open clapperboard" id="clapperboard"class="classImage" >
+                    <span data-key="film body">Have you ever wanted to be a superhero? With Premiere Pro you can be! In this course you will learn the basics of Premiere Pro,
+                     including keyframes, masking, and special effects. In addition to learning about the digital side of filmmaking, we will also 
+                     explore the practical side, using miniatures, gravity, and green screens to our advantage. The course will culminate with you 
+                     making a visual effects shot with any superpower of your choosing.</span>
                  </p>
              </div>
         </div>
 
         <div id="art" class="classItemWrap">
-            <h1 class="classItemTitle">Art</h1>
+            <h1 class="classItemTitle" data-key="art title">Art</h1>
              <div class="classItem">
-                <p><img src="{% static 'resources/paintingImage.jpg' %}" alt="painting image" class="classImage">In this course you will learn the basics of sketching, inking, and cartooning! We will explore different styles,
-                    the fundamentals of drawing, shapes, and expressions as we learn how to view the world through the eye of a cartoonist.
-                    This course welcomes people of all levels of experience to come and try out cartooning for themselves.
+                <p><img src="{% static 'resources/paintingImage.jpg' %}" alt="painting image" class="classImage" id="art-image">In this course you will learn the basics of sketching, inking, and cartooning! We will explore different styles,
+                    <span data-key="art body">In this course you will learn the basics of sketching, inking, and cartooning! We will explore different styles, 
+                    the fundamentals of drawing, shapes, and expressions as we learn how to view the world through the eye of a cartoonist. 
+                    This course welcomes people of all levels of experience to come and try out cartooning for themselves.</span>
              </div>
         </div>
     </div>
