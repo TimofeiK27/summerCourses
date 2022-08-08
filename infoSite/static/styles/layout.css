@@ -130,7 +130,7 @@ select {
 }
 
 #background {
-    background-image: linear-gradient(20deg, #e3ffea, white);
+    background-color:  #e3ffea;
     /*background-image: radial-gradient(gold, white);*/
     position: absolute;
     width: 100vw;
