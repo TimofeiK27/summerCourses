@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.shortcuts import reverse
 from . import templates
 from django.http import JsonResponse
+import os
 
 # Create your views here.
 
@@ -32,8 +33,14 @@ def student_projects(request):
 def student_website(request, stu):
     return render(request, "student-websites/" + stu + ".html")
 
-def student_videos(request):
-    return render(request, "student-videos.html")
+def photos(request):
+    path = 'infoSite/static/resources'
+    img_list = os.listdir(path + "/photos")
+    context = {"images": img_list}
+    return render (request, 'photos.html', context)
+
+# def student_videos(request):
+#     return render(request, "student-videos.html")
 
 # images(request):
 #    return JsonResponse({"funtime"}, status=201)

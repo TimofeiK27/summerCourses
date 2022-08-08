@@ -1,5 +1,6 @@
 const langdata = {
     "en": {
+        "photos":"Photos",
         "lang-button": "English",
         "home": "Project Caravel",
         "about us": "About Us",
@@ -7,11 +8,11 @@ const langdata = {
         "student projects": "Student Projects",
         "welcome text":"Welcome to the Caravel Project!",
         "catchphrase":"Classes to empower and inspire teen Ukrainian refugees",
-        "student projects button":"Click Here To See Student's Web Development HTML files",
-        "description of all classes":"Right now we are providing three classes, their descriptions are below.",
+        "student projects button":"Click Here To See Student Projects",
+        "description of all classes":"Summer Classes",
         "Classes title":"Classes",
-        "classes offered for ages":"All classes are offered for ages 11-14",
-        "classes take place on Mon Wed":"Classes will take place on Mondays and Wednesdays from July 18th to August 3rd",
+        "classes offered for ages":"All classes are offered for Ukrainian refugees ages 11-14",
+        "classes take place on Mon Wed":"Classes on Mondays and Wednesdays from July 25th to August 10th",
         "dates":"July 18th, July 20th, July 25th, July 27th, August 1st, August 3rd",
         "classes will be held":"Classes will be held at the following times",
         "coding time":"Coding: 12:00 pm to 1:20 pm",

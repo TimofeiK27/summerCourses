@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -31,80 +32,27 @@ li {
 
 }
 
-#tab nav {
-    align-self: flex-center;
-}
 
 #tab ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
     height: 100%;
-}
-@media(min-width:426px){
-   #tab li a {
-       font-size: 25px
-    }
-}
-@media(max-width:711.33px){
-
-    #tab ul {
-        height:50%;
-        width:400px;
-    }
-
+    margin-right: 20px;
 }
 
-
-@media(max-width:500px){
-   #tab li a {
-       font-size: 16px
-
-    }
-    #tab ul {
-        width:70%;
-        padding-left:0%;
-        float:right;
-    }
-}
-
-@media(max-width:460px){
-   #tab li a {
-       font-size: 16px
-
-    }
-    #luckylogo {
-        height:55px !important;
-    }
-    #tab ul {
-        width:100%;
-        height:35px;
-        text-align:left;
-        float:left;
-        width:300px;
-    }
-}
 #tab li {
     /*border: solid red 1px;*/
-    height: 100%;
-    padding: 0 20px;
+    height: auto;
+    padding: 0 10px;
     box-sizing: border-box;
+    
+    
 
     display:flex;
     align-items: center;
 }
-@media(max-width:374px){
-   #tab li a {
-       font-size: 10px;
-       height:10px;
-    }
-    #tab ul {
-    height:22px;
-        width:50%;
-        padding-left:0%;
-        float:right;
-    }
-}
+
 #tab li a {
     color: var(--text-green);
     /*color: hsl(0, 0%, 30%);*/
@@ -126,7 +74,7 @@ li {
     position: absolute;
     bottom: -20%;
     width: 100%;
-    height: 3px;
+    height: 2px;
 
 
     transform: scaleX(0);

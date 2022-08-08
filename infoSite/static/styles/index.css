@@ -1,12 +1,12 @@
 .welcome {
-    font-size:4.5vw;
+    font-size:2.5em;
     font-weight:bold;
     margin-top:60px;
     text-align:center;
 }
 
 .tagline {
-    font-size:2vw;
+    font-size:1.5em;
     padding:20px;
 
 }
