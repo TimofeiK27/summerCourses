@@ -41,6 +41,8 @@ const langdata = {
         "natan bio":"Nathan has always found joy in teaching others and spreading knowledge. He recently finished a camp for kids which has led him to seek out other opportunities where he can teach. Nathan has a passion for learning new things and he can’t wait to awaken the passion in others.",
         "leah":"Leah Zhiyanov",
         "leah bio":"Leah Zhiyanov is part of the staff at the Lucky Pen. She is a junior at Redmond High School. Her favorite subjects are math and she also enjoys studying economics and history. Her hobbies are tennis, dancing, and skiing. She loves working in diverse environments and is teaching tennis camps this summer while also helping teenagers that recently came from Ukraine.",
+        "student video head":"Our student-made videos",
+        "student website head":"Our student-made websites",
     },
     "ru": {
         "lang-button":"Русский",
@@ -60,7 +62,7 @@ const langdata = {
         "film time":"Фильмы и спец-эффекты 13:30 - 14:50.",
         "draw time":"Рисование  15:00 - 16:20.",  
         "description of all classes":"<strong>Летние занятия</strong>",
-        "Classes title":"Classes", 
+        "Classes title":"Классы", 
         "webDev title":"Website Development (Coding)",
         "webDev body":"Developing your own website might seem like a challenge, but this course helps break it down into simple ideas. In this class, you will use HTML, CSS, and Javascript to design and develop interactive webpages. Students will get to choose their own website ideas which they will implement and put on the web. Creativity has no boundaries with this class and students visions for website will become reality.",
         "scratch title":"Coding with Scratch (Coding)",
@@ -69,7 +71,7 @@ const langdata = {
         "film body":"Have you ever wanted to be a superhero? With Premiere Pro you can be! In this course you will learn the basics of Premiere Pro, including keyframes, masking, and special effects. In addition to learning about the digital side of filmmaking, we will also explore the practical side, using miniatures, gravity, and green screens to our advantage. The course will culminate with you making a visual effects shot with any superpower of your choosing.",
         "art title":"Art",
         "art body":"In this course you will learn the basics of sketching, inking, and cartooning! We will explore different styles, the fundamentals of drawing, shapes, and expressions as we learn how to view the world through the eye of a cartoonist. This course welcomes people of all levels of experience to come and try out cartooning for themselves.",
-        "about us title":"About Us",
+        "about us title":"Наша Команда",
         "evan":"Evan Meltzer",
         "evan bio":"<em>Lead organizer, <br> filmmaking teacher</em> <br> <br> Evan loved filmmaking since he was 8 years old. He has been using Premiere Pro for 7 years and Blender for 2 years. Evan has experience filming and editing promotional, educational, and informational content for a variety of organizations including Lucky Pen, 5th Avenue Theater, ASSA Games, Eastside Prep, iMiracle, and more.",
         "timofei":"Timofei Kachan",
@@ -84,6 +86,8 @@ const langdata = {
         "natan bio":"Nathan has always found joy in teaching others and spreading knowledge. He recently finished a camp for kids which has led him to seek out other opportunities where he can teach. Nathan has a passion for learning new things and he can’t wait to awaken the passion in others.",
         "leah":"Leah Zhiyanov",
         "leah bio":"Leah Zhiyanov is part of the staff at the Lucky Pen. She is a junior at Redmond High School. Her favorite subjects are math and she also enjoys studying economics and history. Her hobbies are tennis, dancing, and skiing. She loves working in diverse environments and is teaching tennis camps this summer while also helping teenagers that recently came from Ukraine.",  
+        "student video head":"Видео сделанные нашими студентами",
+        "student website head":"Сайты сделанные нашими студентами",
     }
 };
 
