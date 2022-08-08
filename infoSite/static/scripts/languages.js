@@ -1,5 +1,6 @@
 const langdata = {
     "en": {
+        "lang-button": "English",
         "home": "Project Caravel",
         "about us": "About Us",
         "classes": "Classes",
@@ -38,13 +39,28 @@ const langdata = {
 
     },
     "ru": {
+        "lang-button":"Русский",
         "home": "Проект Каравелла",
         "about us": "О Нас",
         "classes": "Классы",
         "sign up": "Регистрация"
     }
 };
-//apply the language values to the content
+
+
+
+let showdropdown = () => {
+    document.getElementById("lang-drop-down-content").style.display='block';
+}
+
+let hidedropdown = () => {
+    document.getElementById("lang-drop-down-content").style.display='none';
+}
+
+let getdropdownstate = () => {
+    console.log(document.getElementById("lang-drop-down-content").style);
+    return document.getElementById("lang-drop-down-content").style.display;
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     if (!localStorage.getItem('lang')) {
@@ -52,13 +68,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     let zones = document.querySelectorAll('[data-key]');
     applyStrings(zones);
-    document.getElementById('langMenu').value = localStorage.getItem('lang');
-    document.getElementById('langMenu').addEventListener('change', e => {
-        console.log(e.target.value);
-        localStorage.setItem('lang', e.target.value);
-        applyStrings(document.querySelectorAll('[data-key]'));
 
-    })
+    hidedropdown();
+    document.querySelectorAll('.lang-drop-down').forEach(element=>{
+        element.addEventListener('mouseover', showdropdown);
+        element.addEventListener('mouseleave', hidedropdown);
+        element.addEventListener('click', () => getdropdownstate() === 'none' ? showdropdown() : hidedropdown());
+    });
+    document.querySelectorAll('.langBtn').value = localStorage.getItem('lang');
+    document.querySelectorAll('.langBtn').forEach(element => {
+        
+        element.addEventListener('click', () => {
+                localStorage.setItem('lang', element.dataset.val);
+                applyStrings(document.querySelectorAll('[data-key]'));   
+                // document.getElementById("lang-drop-down-content").style.display = 'none';  
+            console.log(element.dataset.val);
+        });
+    });
 });
 
 function applyStrings(elements) {
