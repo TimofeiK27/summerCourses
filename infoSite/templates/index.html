@@ -12,7 +12,7 @@
         <div class="prettyButton" data-key="student projects button">Click Here To See Student Projects</div>
     </a>
     <div class="boatclasswrap">
-        <object data="{% static 'resources/Artboard 2.svg' %}" width="300px" height="300px"></object>
+        <object id="ship" data="{% static 'resources/Artboard 2.svg' %}"></object>
         <div id="classHeader">
             <p id="classDescription" data-key="description of all classes">Right now we are providing three classes, their descriptions are below.
             </p>
@@ -34,11 +34,8 @@
                 </li>
             </ul>
         </div>
-        <!-- <img id="ship" src="{% static 'resources/seaofthieves.jpg' %}" alt="sea of thieves ship"> -->
+        
     </div>
 
 {% endblock %}
 
-{% block script %}
-    <!--script src="{% static 'BoardGames/active.js' %}"></script-->
-{% endblock %}

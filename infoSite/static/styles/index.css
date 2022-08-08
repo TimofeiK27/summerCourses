@@ -37,7 +37,7 @@
 }
 
 #ship {
-    width: 500px;
+    width: 20%;
     margin: auto;
 }
 
@@ -47,6 +47,6 @@
 
 @media (max-width: 1000px) {
     #ship {
-        width: 70vw;
+        width: 20%;
     }
 }
