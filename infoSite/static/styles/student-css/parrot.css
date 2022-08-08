@@ -1,0 +1,22 @@
+h1 {
+    color: gold;
+    background-color: chartreuse;
+    width: fit-content;
+ }
+.RO {
+color: greenyellow;
+background-color: gold;
+width: fit-content;
+}
+img {
+border:5px red dotted;
+
+}
+a {
+background-color: aqua;
+}
+body {
+    background-image: url("https://m.media-amazon.com/images/I/81ddVJmLz0L._AC_SL1240_.jpg");
+
+}
+

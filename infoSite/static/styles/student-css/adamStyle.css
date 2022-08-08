@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    color: aliceblue;
+    background-color: black;
+}
+
+.header-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-option {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-title {
+    margin-top: -10px;
+}
+
+.header-link {
+ color: aliceblue;
+ text-decoration: none;
+}
+
+.div {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+.link {
+    text-align: center;
+}
+
+.button {
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    background-color: #000;
+    margin-top: 15px;
+}
+
+#scary-img {
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width: 100%;
+    visibility: hidden;
+}

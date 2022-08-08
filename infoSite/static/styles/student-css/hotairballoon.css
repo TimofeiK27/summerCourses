@@ -1,0 +1,47 @@
+* {
+    color:rgb(236, 233, 233);
+}
+
+
+img {
+    border: 5px rgb(246, 246, 246) solid;
+
+}
+.air{
+    font-weight: bold; 
+
+}
+.information
+{font-weight: bold;
+
+}
+.image 
+{
+    width: 20%;
+    animation-name: moveballonright;
+    animation-duration: 7s;
+    animation-iteration-count: 2;
+    position: relative;
+}
+
+@keyframes moveballonright {
+from {
+left:5%;
+}
+to {
+left:75%;
+}
+
+}
+.firstDiv {
+    background-color:rgb(104, 24, 24);
+    padding: 20px;
+}
+.pagehead{
+    margin: auto;
+    text-align:center;
+}
+.backgroundimage{
+    background-image: url("https://d.newsweek.com/en/full/1920025/cat-its-mouth-open.jpg?w=1600&h=1600&q=88&f=b7a44663e082b8041129616b6b73328d");
+    
+}

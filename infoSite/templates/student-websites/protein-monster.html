@@ -1,19 +1,68 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="{% static 'scripts/student-scripts/ptotein.js' %}"></script>
+         <style>
+           h1 {
+               color: brown;
+           }
+            img{
+                border: 10px red solid;
+                height: 400px; 
+                animation-name: MoveRightMonkey;
+                animation-duration: 7s;
+                position: relative;
+                animation-iteration-count: infinite;
+                animation-delay: 4s;
+            }
+            @keyframes MoveRightMonkey {
+               from{
+                left:1%;
+               } 
+               to{
+                left:75%
+               }
+            }
 
-    </head>
-    <body>
-        <a style="font-size:1.5em" href="/student-projects"> Return To Project Caravel</a>
+
+           .Gym{
+                color:blue;
+                font-weight:bold;
+           }
+            .tim{
+                background-color: pink;
+            }
+            
+         </style>
+   
+   <script src="{% static 'scripts/returnbutton.js' %}"></script>
+</head>
+<body>
+    <return-button></return-button> 
+        <input type="number" id="num1">
+        <label for="num2"> + </label>
+        <input type="number" id="num2">
+        <button onclick="bebra()">calculate</button>
+        <p id="answer"></p>
 
         <div style="background-color:aqua;">
-        <h1 style="color:rgb(26, 21, 8); background-color: rgb(10, 86, 226);">monkey</h1>
+        <h1>monkey</h1>
+        <button onclick="alert('grisha')">Grisha</button>
+        <h1 class="Gym">Club</h1>
+        <h2 style="color:rgb(14, 15, 15)">protein monster</h2>
+        <img src="https://cdn.mos.cms.futurecdn.net/xKZUpymtYqQa4kRVw6nDdN.jpg">
+          <h2 class="monster"></h2>
+        <p class="Gym"> age : unknown</p>
+       <ul>
+        <li class="tim"> strong monkeys </li>
+        <li class="tim">just for mens </li>
+        <li class="tim">use your full power</li>
+       <li class="tim">bring four bananas every day if you want to live </li>
+    </ul>
 
-        <h2 style="color:rgb(14, 15, 15)">ptotein monster</h2>
-        <image style="border:4px rgb(8, 8, 232) solid"src="https://cdn.mos.cms.futurecdn.net/xKZUpymtYqQa4kRVw6nDdN.jpg">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/PYar0dkZ6v8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <p> age : unknown</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/PYar0dkZ6v8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </body>
-</html>
+</html> 
