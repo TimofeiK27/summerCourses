@@ -11,6 +11,6 @@ img.classphoto:first-child {
 @media (max-width: 1000px) {
     .classphoto {
         margin: 7px 15px;
-        width:86%;
+        width:90%;
     }
   }
