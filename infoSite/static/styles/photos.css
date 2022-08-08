@@ -4,5 +4,13 @@ img.classphoto:first-child {
 
 .classphoto {
     margin: 15px 30px;
-    width:93%;
+    width:94%;
 }
+
+
+@media (max-width: 1000px) {
+    .classphoto {
+        margin: 7px 15px;
+        width:92%;
+    }
+  }
