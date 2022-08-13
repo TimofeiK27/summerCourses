@@ -3,14 +3,14 @@ img.classphoto:first-child {
 }
 
 .classphoto {
-    margin: 15px 30px;
+    margin: 15px 3%;
     width:94%;
 }
 
 
 @media (max-width: 1000px) {
     .classphoto {
-        margin: 7px 15px;
+        margin: 7px 5%;
         width:90%;
     }
   }
