@@ -1,12 +1,12 @@
 .welcome {
-    font-size:4.5vw;
+    font-size:2.5em;
     font-weight:bold;
     margin-top:60px;
     text-align:center;
 }
 
 .tagline {
-    font-size:2vw;
+    font-size:1.5em;
     padding:20px;
 
 }
@@ -37,12 +37,16 @@
 }
 
 #ship {
-    width: 500px;
+    width: 20%;
     margin: auto;
+}
+
+.boatclasswrap {
+    display: flex;
 }
 
 @media (max-width: 1000px) {
     #ship {
-        width: 70vw;
+        width: 20%;
     }
 }

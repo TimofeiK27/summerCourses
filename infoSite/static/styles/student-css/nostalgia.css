@@ -1,0 +1,40 @@
+
+h1 {
+    color: brown;
+    font-size: 40px;
+}
+img {
+    border: 3px red dasher;
+    width: 300;
+    animation-name: moveDogRight;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count:infinite ;
+}
+/* @keyframes moveDogRight {
+   from{ 
+    left:5%;
+   }
+   to {
+    left: 300%;
+   }
+    
+} */
+
+.bolt {
+    font-weight:bold;
+    color: orangered;
+}
+
+.add {
+    font-weight:add;
+    color: green; 
+}
+
+div {
+    background-color: rgb(228, 16, 16);
+}
+.firstdiv {
+    background-color: rgb(16, 101, 186);
+
+}

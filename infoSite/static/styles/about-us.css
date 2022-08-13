@@ -73,6 +73,11 @@ div.bio:nth-child(2n) .biotextwrap {
         margin-right: 5vw;
     }
 
+    div.bio:nth-child(2n) {
+        align-items: center;
+        flex-direction: column;
+    }
+
     .biotextwrap {
         padding: 0px !important;
     }

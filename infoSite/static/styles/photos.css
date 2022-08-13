@@ -1,0 +1,16 @@
+img.classphoto:first-child {
+    margin-top: 70px;
+}
+
+.classphoto {
+    margin: 15px 30px;
+    width:94%;
+}
+
+
+@media (max-width: 1000px) {
+    .classphoto {
+        margin: 7px 15px;
+        width:90%;
+    }
+  }

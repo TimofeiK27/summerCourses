@@ -4,18 +4,38 @@
     <div>
         <h1 class="welcome" data-key="welcome text">Welcome to the Caravel Project!</h1>
         <div>
-            <h3 class="tagline" data-key="catchphrase">Classes to empower and inspire teen Ukrainian refugees</h3>
+            <h3 class="tagline" data-key="catchphrase">Classes to empower and inspire teen refugees</h3>
         </div>
     </div>
 
     <a href="/student-projects" class="prettyButtonLinkWrap greentext">
         <div class="prettyButton" data-key="student projects button">Click Here To See Student Projects</div>
     </a>
-    <!-- <img id="ship" src="{% static 'resources/seaofthieves.jpg' %}" alt="sea of thieves ship"> -->
-    <object data="{% static 'resources/Artboard 2.svg' %}" width="300px" height="300px"></object>
+    <div class="boatclasswrap">
+        <object id="ship" data="{% static 'resources/Artboard 2.svg' %}"></object>
+        <div id="classHeader">
+            <p id="classDescription" data-key="description of all classes">Right now we are providing three classes, their descriptions are below.
+            </p>
+
+            <ul id="infolist">
+                <li data-key="classes offered for ages">All classes are offered for ages 11-14</li>
+                <li data-key="classes take place on Mon Wed">Classes will take place on Mondays and Wednesdays from July 18th to August 3rd
+                    <ul class="sublist">
+                        <li data-key="dates">July 18th, July 20th, July 25th, July 27th, August 1st, August 3rd</li>
+                    </ul>
+                </li>
+                <li>
+                    <span data-key="classes will be held">Classes will be held at the following times</span>
+                    <ul class="sublist">
+                        <li data-key="coding time">Coding: 12:00 pm to 1:20 pm</li>
+                        <li data-key="film time">Filmmaking: 1:30 pm to 2:50 pm</li>
+                        <li data-key="draw time">Drawing: 3:00 pm to 4:20 pm</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
 
 {% endblock %}
 
-{% block script %}
-    <!--script src="{% static 'BoardGames/active.js' %}"></script-->
-{% endblock %}

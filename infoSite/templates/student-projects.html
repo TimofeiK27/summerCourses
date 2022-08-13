@@ -1,40 +1,32 @@
 {% extends "layout.html" %}
 {% load static %}
 {% block body %}
-    <h1 class="welcome">Our student-made websites</h1>
-    <a href="/student-websites/computer-games" class="prettyButtonLinkWrap greentext">
+    <h1 class="welcome" data-key="student website head">Our student-made websites</h1>
+    <a href="/student-projects/computer-games" class="prettyButtonLinkWrap greentext">
         <div class="prettyButton">Computer Games</div>
     </a>
-    <a href="/student-websites/dogs" class="prettyButtonLinkWrap greentext">
-        <div class="prettyButton">Dogs</div>
+    <a href="/student-projects/parrot" class="prettyButtonLinkWrap greentext">
+        <div class="prettyButton">Parrot</div>
     </a>
-    <a href="/student-websites/hot-air-balloon" class="prettyButtonLinkWrap greentext">
+    <a href="/student-projects/hotairballoon" class="prettyButtonLinkWrap greentext">
         <div class="prettyButton">Hot Air Balloon</div>
     </a>
-    <a href="/student-websites/protein-monster" class="prettyButtonLinkWrap greentext">
+    <a href="/student-projects/nostalgia" class="prettyButtonLinkWrap greentext">
+        <div class="prettyButton">Nostalgia</div>
+    </a>
+    <a href="/student-projects/protein-monster" class="prettyButtonLinkWrap greentext">
         <div class="prettyButton">Protein Monster</div>
     </a>
-    <h1 class="studentvidsheader">Our student-made videos</h1>
+    <h1 class="welcome" data-key="student video head">Our student-made videos</h1>
 
-    <video class="studentvideo" controls>
-        <source src="{% static 'resources/student-vids/Africa.mov' %}" type="video/mp4">
-    </video>
-    <video class="studentvideo" controls>
-        <source src="{% static 'resources/student-vids/Clones.mov' %}" type="video/mp4">
-    </video>
-    <video class="studentvideo" controls>
-        <source src="{% static 'resources/student-vids/Fly.mov' %}" type="video/mp4">
-    </video>
-    <video class="studentvideo" controls>
-        <source src="{% static 'resources/student-vids/Teleport.mov' %}" type="video/mp4">
-    </video>
-    <video class="studentvideo" controls>
-        <source src="{% static 'resources/student-vids/Teleport2.mov' %}" type="video/mp4">
-    </video>
-    <video class="studentvideo" controls>
-        <source src="{% static 'resources/student-vids/WaterWalk3.mov' %}" type="video/mp4">
-    </video>
-
+    <iframe class="studentvideo" src="https://www.youtube.com/embed/0x2Vq2s2qzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="studentvideo" src="https://www.youtube.com/embed/hG31PK3Uw4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="studentvideo" src="https://www.youtube.com/embed/5Sk7ta72P94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="studentvideo" src="https://www.youtube.com/embed/8D7O7OqaKBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="studentvideo" src="https://www.youtube.com/embed/A2BqeELr0do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="studentvideo" src="https://www.youtube.com/embed/roNfJtPNwnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="studentvideo" src="https://www.youtube.com/embed/azwk57FhP8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
 {% endblock %}
 
 {% block script %}
