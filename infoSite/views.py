@@ -8,7 +8,7 @@ import os
 # Create your views here.
 
 def index(request):
-    path = 'infoSite/static/resources/photos'
+    path = 'infoSite/static/resources/'
     img_list = os.listdir(path + "/English")
     context = {"images": img_list}
 
