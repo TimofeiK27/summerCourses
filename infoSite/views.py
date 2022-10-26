@@ -8,9 +8,11 @@ import os
 # Create your views here.
 
 def index(request):
-    return render(request, "index.html", {
+    path = 'infoSite/static/resources/photos'
+    img_list = os.listdir(path + "/English")
+    context = {"images": img_list}
 
-    })
+    return render(request, "index.html", context)
 
 
 def aboutus(request):

@@ -37,5 +37,12 @@
         
     </div>
 
+    <div class="post-caravel-info">
+        <h1 id="englishClass" data-key="english class description">English classes every Monday at 6:00 - 7:30pm every Monday starting October 3rd!</h1>
+        {% for image in images %}
+            <img class="classphoto" src="static/resources/photos/english/{{image}}">
+        {% endfor %}
+    </div>
+
 {% endblock %}
 

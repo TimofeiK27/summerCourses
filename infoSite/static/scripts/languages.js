@@ -1,5 +1,6 @@
 const langdata = {
     "en": {
+        "english class description":"Project Caravel will continue by hosting English classes every Monday at 6:00 - 7:30pm starting October 3rd!",
         "photos":"Photos",
         "lang-button": "English",
         "home": "Project Caravel",
@@ -45,6 +46,7 @@ const langdata = {
         "student website head":"Our student-made websites",
     },
     "ru": {
+        "english class description":"Занятия по английскому языку каждый понедельник в 18:00 - 19:30 начиная с 3 октября!",
         "lang-button":"Русский",
         "home": "Проект Каравелла",
         "about us": "О Нас",
